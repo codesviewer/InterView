@@ -65,6 +65,8 @@ public class AnnotationTest {
 		eatMethod.setAccessible(true);//必须加上这句代码
 		Object result = eatMethod.invoke(user, "牛肉拉面");
 		System.out.println(result);
+		
+		System.out.println("hotfix");
 	}
 
 }
